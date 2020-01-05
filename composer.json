@@ -1,0 +1,22 @@
+{
+    "name": "indecys/blank",
+    "license": "Apache-2.0",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "symfony/flex": "^1.2"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

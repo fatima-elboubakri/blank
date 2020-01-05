@@ -1,0 +1,4 @@
+form_name : nom
+form_price : prix
+submit : Soumettre le formulaire
+value_not_found: La valeur %valeur% n'est pas ete trouver

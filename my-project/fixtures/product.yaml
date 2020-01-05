@@ -1,0 +1,14 @@
+App\Entity\Product:
+  product_1:
+    name: '<name()>'
+    price: '<randomFloat(2)>'
+    orders: ['@order_1']
+
+  product_2:
+    name: '<name()>'
+    price: '<randomFloat(2)>'
+    orders: ['@order_1']
+
+  product_{3..30}:
+    name: '<name()>'
+    price: '<randomFloat(2)>'
